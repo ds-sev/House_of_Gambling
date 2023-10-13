@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Lexend-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('Lexend-Medium.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('Lexend-SemiBold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('FuturaPT-Medium.ttf') format('truetype')
+}
