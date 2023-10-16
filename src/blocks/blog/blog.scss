@@ -1,0 +1,133 @@
+.blog {
+  margin-top: 140px;
+  width: 531px;
+  -ms-grid-column-align: end;
+  justify-self: end;
+
+  &__title {
+    margin: 0 0 24px 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  &__posts {
+    box-sizing: border-box;
+    height: 595px;
+    border-radius: 100px;
+    border: 3px solid #478BF9;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  &__scroll-container {
+    padding: 21px 15px 24px 22px;
+    margin: 0 14px 0 0;
+    height: 595px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #478BF9;
+      background-clip: content-box;
+    }
+
+    &::-webkit-scrollbar-track {
+      margin-top: 92px;
+      margin-bottom: 148px;
+      border-radius: 10px;
+      background-color: #FFFFFF1F;
+    }
+  }
+}
+
+@media (max-width: 1640px) {
+  .blog {
+    margin-top: 0;
+
+    &__title {
+      font-size: 28px;
+    }
+
+    &__posts {
+      position: relative;
+      height: 420px;
+    }
+
+    &__scroll-container {
+      height: 420px;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .blog {
+    &__title {
+      margin-bottom: 18px;
+      font-size: 34px;
+      line-height: 40px;
+    }
+
+    &__posts {
+      border-radius: 50px;
+      border: 2px solid var(--main-blue-478-bf-9, #478BF9);
+    }
+
+    &__scroll-container {
+      padding: 8px 6px 8px 8px;
+      margin-right: 4px;
+
+      &::-webkit-scrollbar {
+        width: 4px;
+      }
+
+      &::-webkit-scrollbar-track {
+        margin-top: 58px;
+        margin-bottom: 78px;
+      }
+    }
+  }
+}
+
+@media (max-width: 945px) {
+  .blog {
+    width: 100%;
+    margin-bottom: 119px;
+
+    &__title {
+      margin-bottom: 18px;
+      font-size: 32px;
+      line-height: 40px;
+    }
+
+    &__posts {
+      height: 421px;
+      border-radius: 50px;
+      border: 2px solid var(--main-blue-478-bf-9, #478BF9);
+    }
+
+    &__scroll-container {
+      padding: 8px 6px 8px 8px;
+      margin-right: 4px;
+      height: 421px;
+
+      &::-webkit-scrollbar {
+        width: 4px;
+      }
+
+      &::-webkit-scrollbar-track {
+        margin-top: 58px;
+        margin-bottom: 78px;
+      }
+    }
+  }
+}

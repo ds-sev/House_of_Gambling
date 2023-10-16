@@ -1,0 +1,12 @@
+._link {
+  color: inherit;
+  cursor: pointer;
+  transition: 0.2s;
+  text-decoration: underline transparent;
+  
+  &:hover {
+    text-decoration: underline;
+    color: #478BF9;
+    transition: color .3s, text-decoration .3s;
+  }
+}

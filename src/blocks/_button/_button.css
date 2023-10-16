@@ -1,0 +1,12 @@
+._button {
+  color: #FFF;
+  text-align: center;
+  transition: background-color .3s;
+  
+  &:hover {
+    cursor: pointer;
+    background: #478BF9;
+    border-color: #478BF9;
+    transition: background-color .3s, border-color .3s;
+  }
+}
