@@ -1,5 +1,10 @@
 # House_of_Gambling
-<p align="center"><img src="https://github.com/ds-sev/House_of_Gambling/assets/99210830/8479be37-e494-4be7-8956-28935e56a155" width="700px"></p>
+
+## _Ссылки:_
+1. [Деплой проекта](https://ds-sev.github.io/House_of_Gambling)
+2. [Репозиторий проекта](https://github.com/ds-sev/House_of_Gambling)
+
+<p align="center"><img src="https://github.com/ds-sev/House_of_Gambling/assets/99210830/fa11e4f0-66c4-4fba-a36c-eb7d1bb21366" width="700px"></p>
 
   * Выполнена верстка страницы по предоставленному макету.
   * Всем ссылкам, кроме blog присвоено значение "#". Первому элементу блока blog присвоена рабочая ссылка. 
